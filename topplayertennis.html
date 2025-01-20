@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            padding: 20px;
+        }
+        .player-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+        .player-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-right: 1px solid #ddd;
+        }
+        .player-card .details {
+            padding: 15px;
+        }
+        .player-card h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #1e88e5;
+        }
+        .player-card p {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e88e5;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li>
+                    <a href="#">News</a>
+                    <ul>
+                        <li><a href="cricketnews.html">Cricket</a></li>
+                        <li><a href="footballnews.html">Football</a></li>
+                        <li><a href="tennisnews.html">Tennis</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Schedule</a>
+                    <ul>
+                        <li><a href="cricketschedule.html">Cricket</a></li>
+                        <li><a href="footballschedule.html">Football</a></li>
+                        <li><a href="tennisschedule.html">Tennis</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Top Players</a>
+                    <ul>
+                        <li><a href="topplayercricket.html">Cricket</a></li>
+                        <li><a href="topplayerfootball.html">Football</a></li>
+                        <li><a href="topplayertennis.html">Tennis</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <hr><hr>
+        <h1>Top Tennis Players</h1>
+        <hr><hr>
+    </header>
+    <div class="container">
+        <div class="player-card">
+            <img src="images/rafaelnadal.jpeg" alt="Rafael Nadal">
+            <div class="details">
+                <h2>Rafael Nadal</h2>
+                <p>Country: Spain</p>
+                <p>Role: Professional Tennis Player</p>
+                <p>Achievements: 22 Grand Slam singles titles, known as the "King of Clay."</p>
+            </div>
+        </div>
+        <div class="player-card">
+            <img src="images/rogerfederer.jpg" alt="Roger Federer">
+            <div class="details">
+                <h2>Roger Federer</h2>
+                <p>Country: Switzerland</p>
+                <p>Role: Professional Tennis Player</p>
+                <p>Achievements: 20 Grand Slam singles titles, 310 weeks as world No. 1.</p>
+            </div>
+        </div>
+        <div class="player-card">
+            <img src="images/novakdjokovic.jpg" alt="Novak Djokovic">
+            <div class="details">
+                <h2>Novak Djokovic</h2>
+                <p>Country: Serbia</p>
+                <p>Role: Professional Tennis Player</p>
+                <p>Achievements: 22 Grand Slam singles titles, record 373 weeks as world No. 1.</p>
+            </div>
+        </div>
+        <div class="player-card">
+            <img src="images/andreagassi.jpg" alt="Andre Agassi">
+            <div class="details">
+                <h2>Andre Agassi</h2>
+                <p>Country: USA</p>
+                <p>Role: Retired Professional Tennis Player</p>
+                <p>Achievements: 8 Grand Slam singles titles, Olympic gold medalist.</p>
+            </div>
+        </div>
+        <div class="player-card">
+            <img src="images/serenawilliams.jpg" alt="Serena Williams">
+            <div class="details">
+                <h2>Serena Williams</h2>
+                <p>Country: USA</p>
+                <p>Role: Professional Tennis Player</p>
+                <p>Achievements: 23 Grand Slam singles titles, regarded as one of the greatest athletes.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <footer class="footer">
+        <p>&copy; Sports News Portal. All rights reserved to Peaky Blinders.</p>
+    </footer>
+</body>
+</html>
